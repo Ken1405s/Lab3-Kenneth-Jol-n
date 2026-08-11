@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #1F1F1F;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+nav a img{
+    height: 40px;
+    border-radius: 10px;
+}
+nav a img:hover{
+    background-color: rgb(5, 4, 4);
+}
+.google img{
+    height: 150px;
+    margin-left: 550px;
+    margin-top: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+nav a{
+    margin: 0 5px;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.items{
+    background-color: #1B62D3  ;
+    border-radius:15px; 
+    padding: 10px 10px 10px 10px;
+    color: white;
+}
+.google{
+    height: 200px;
+    width: 100%;
+    align-items: center;
+}
+footer{
+    background-color: #F3F5F6;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    height: 80px;
+}
+.arriba{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    border-bottom:2px solid rgb(199, 197, 197) ;
+}
+.arriba a{
+    margin-left: 30px;
+}
+.abajo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    border-bottom:2px solid rgb(199, 197, 197) ;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+.F1{
+    margin-left: 20px;
+}
+.F2{
+    margin-right: 20px;
+}
+.barra-busqueda{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(223, 227, 227);
+    border-radius: 24px;
+    padding: 10px 16px;
+    max-width: 580px;
+    margin: 0 auto;
+    gap: 10px;    
+}
+.icono-mas{
+    color: #5f6368;
+    font-size: 16px;
+    font-weight: bold;
+}
+.icono-mas img{
+    height: 25px;
+}
+.campo-busqueda{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+.iconos-derecha{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.iconos-derecha img{
+    height: 25px;
+}
+.icono-microfono, .icono-camara{
+    font-size: 18px;
+    cursor: pointer;
+}
+.icono-microfono, .icono-camara:hover{
+    transition: (0.4);
+}
+.modo-ia{
+    font-size: 14px;
+    color: #F3F5F6 ;
+    cursor: pointer;
+}
+.botones{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.btn-buscar, .btn-suerte{
+    padding: 10px 18px;
+    background-color: #F8F9FA;
+    border: 1px solid #fbfbfb;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-buscar:hover, .btn-suerte:hover{
+    border-color: rgb(193, 193, 201);
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+.text{
+    margin-top: 30px;
+    font-size: 13px;
+    color: gray;
+    text-align: center;
+}
+.text a{
+    color: blue;
+    text-decoration: none;
+}
+.text a:hover{
+    text-decoration: underline;
+}
+.contenedorB{
+    height: 400px;
+}
